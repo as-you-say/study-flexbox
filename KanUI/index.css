@@ -10,13 +10,21 @@ body {
   flex: 0 320px;
   height: 100vh;
 }
-#header {
+#main {
   flex: 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+#header {
+  flex: 0 80px;
   background-color: #fff;
-  height: 80px;
-  line-height: 80px;
   border-left: 1px solid #dbdbdb;
   padding: 0 2rem;
+  width: 100%;
+}
+#details {
+  flex: 1 auto;
+  padding: 2rem;
 }
 
 .sidebar {
@@ -234,3 +242,4 @@ body {
   color: rgb(119, 123, 133);
   font-weight: 500;
 }
+
